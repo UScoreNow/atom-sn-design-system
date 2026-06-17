@@ -21,8 +21,6 @@
 //     (transform: uppercase no existe en TextStyle); aqui solo se aplica
 //     el letterSpacing de kicker (0.08em * size).
 
-import 'dart:ui' show FontFeature;
-
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
