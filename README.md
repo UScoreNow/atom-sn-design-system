@@ -4,25 +4,9 @@
 > **Estado:** En desarrollo
 > **Plataforma:** Flutter · mobile-first · con soporte Flutter Web
 > **Modos:** light ("Paper") · dark ("Night Press")
-> **Stack:** Dart / Flutter · Hugeicons · Libre Caslon Display (serif) + ElmsSans (sans)
+> **Stack:** Dart / Flutter · Hugeicons · ElmsSans (sans)
 
 Sistema de diseño para la app de gestión de torneos de fútbol UScoreNow. Evoluciona el sistema minimalista de v1 hacia un aire de **periódico deportivo de verdad**: base apapelada crema sobre la que se imprime tinta cálida, con verde césped y negro tinta como únicos acentos. El contenido —marcadores, clasificaciones, crónicas— manda; el utillaje editorial (reglas hairline, kickers en mayúsculas, líderes punteados, cifras tabulares, sellos de tinta) le da voz de prensa sin ruido cromático.
-
----
-
-## Qué cambia respecto a v1
-
-| Decisión v1 | Decisión v2 (newsprint) |
-|---|---|
-| Base gris fría (`gray.*`) | **Base apapelada crema/newsprint** cálida (`color.paper.*`) |
-| Grises neutros para texto | **Tinta cálida** (`color.ink.*`) con susurro de papel |
-| Verde `#2E8B57` | **Verde césped más cálido** `color.green.500` `#3E8E45` |
-| `#000000` no usable | **Negro tinta permitido**: `color.ink.900` `#0E0D0A` (destacados, sellos, masthead) |
-| Una familia (`Elms Sans`) | **Duotono editorial**: serif `Libre Caslon Display` (solo titulares) + `ElmsSans` (todo lo demás) |
-| Solo colors/fonts/icons/spacing | **Capítulo editorial nuevo** (`editorial/`): reglas, kickers, líderes, cifras tabulares, highlight marker, sellos |
-| Docs sueltos | **`tokens/tokens.json` (DTCG) como fuente única de verdad** |
-| — | **Tema Flutter** generado en `lib/theme/` (consumo nativo) |
-| — | **Preview HTML** (`preview/index.html`) para inspección rápida en navegador |
 
 ---
 
