@@ -1,4 +1,4 @@
-# AtomSN — Design System · Tema editorial "newsprint"
+# AtomSN — Design System
 
 > **Versión:** 2.0
 > **Estado:** En desarrollo
