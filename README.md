@@ -50,8 +50,6 @@ atom-sn-design-system/
 │   └── spacing.md        # Escala 4px, padding, gap, radios (radius.none editorial)
 ├── editorial/            # Capítulo nuevo: reglas hairline/section, kickers/overlines,
 │                         #   líderes punteados, highlight marker, sellos de tinta
-├── lib/
-│   └── theme/            # Tema Flutter (ThemeData light/dark) derivado de tokens.json
 ├── preview/
 │   └── index.html        # Preview HTML del sistema para inspección en navegador
 └── assets/
@@ -59,7 +57,9 @@ atom-sn-design-system/
         └── elms_sans/    # ElmsSans variable (Regular + Italic) · OFL.txt
 ```
 
-> Estado: `colors/`, `fonts/`, `icons/`, `spacing/` y `tokens/` están poblados. `editorial/`, `lib/theme/` y `preview/` son directorios de la estructura objetivo, en construcción. `Libre Caslon Display` (serif, w400) se resuelve vía fuente del sistema/CDN; solo `ElmsSans` se versiona en `assets/fonts/`.
+> Estado: `colors/`, `fonts/`, `icons/`, `spacing/` y `tokens/` están poblados. `editorial/` y `preview/` son directorios de la estructura objetivo, en construcción. `Libre Caslon Display` (serif, w400) se resuelve vía fuente del sistema/CDN; solo `ElmsSans` se versiona en `assets/fonts/`.
+
+> **Repo solo de documentación.** Aquí vive la especificación del sistema (tokens DTCG, docs, marca, preview). La **implementación Flutter** (tema y componentes derivados de `tokens.json`) vive en el repo de código [`UScoreNow/atom-sn`](https://github.com/UScoreNow/atom-sn).
 
 ---
 
