@@ -1,4 +1,4 @@
-# Design System — UScoreNow · Tema editorial "newsprint"
+# AtomSN — Design System · Tema editorial "newsprint"
 
 > **Versión:** 2.0
 > **Estado:** En desarrollo
@@ -36,7 +36,7 @@ El sistema histórico imponía dos invariantes que v2 rompe de forma **explícit
 ## Índice de artefactos
 
 ```
-design-system-v2/
+atom-sn-design-system/
 ├── tokens/
 │   └── tokens.json       # FUENTE ÚNICA DE VERDAD (formato DTCG). Color, tipografía,
 │                         #   espaciado, radios, reglas. Toda decisión sale de aquí.
@@ -50,8 +50,6 @@ design-system-v2/
 │   └── spacing.md        # Escala 4px, padding, gap, radios (radius.none editorial)
 ├── editorial/            # Capítulo nuevo: reglas hairline/section, kickers/overlines,
 │                         #   líderes punteados, highlight marker, sellos de tinta
-├── lib/
-│   └── theme/            # Tema Flutter (ThemeData light/dark) derivado de tokens.json
 ├── preview/
 │   └── index.html        # Preview HTML del sistema para inspección en navegador
 └── assets/
@@ -59,7 +57,9 @@ design-system-v2/
         └── elms_sans/    # ElmsSans variable (Regular + Italic) · OFL.txt
 ```
 
-> Estado: `colors/`, `fonts/`, `icons/`, `spacing/` y `tokens/` están poblados. `editorial/`, `lib/theme/` y `preview/` son directorios de la estructura objetivo, en construcción. `Libre Caslon Display` (serif, w400) se resuelve vía fuente del sistema/CDN; solo `ElmsSans` se versiona en `assets/fonts/`.
+> Estado: `colors/`, `fonts/`, `icons/`, `spacing/` y `tokens/` están poblados. `editorial/` y `preview/` son directorios de la estructura objetivo, en construcción. `Libre Caslon Display` (serif, w400) se resuelve vía fuente del sistema/CDN; solo `ElmsSans` se versiona en `assets/fonts/`.
+
+> **Repo solo de documentación.** Aquí vive la especificación del sistema (tokens DTCG, docs, marca, preview). La **implementación Flutter** (tema y componentes derivados de `tokens.json`) vive en el repo de código [`UScoreNow/atom-sn`](https://github.com/UScoreNow/atom-sn).
 
 ---
 
